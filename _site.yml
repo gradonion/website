@@ -1,0 +1,13 @@
+name: "yifans-website"
+output_dir: "."
+navbar:
+  title: "Yifans Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Projects"
+      href: projects.html
+output:
+  html_document:
+    theme: cerulean
+    style: style.css
